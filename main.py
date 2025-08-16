@@ -323,7 +323,7 @@ Press backtick to toggle repeated adding/removing
             island.blit(screen)
 
         count_text_raw = f"Island Count : {len(ISLANDS)} - (h to toggle hide)"
-        crazy_delta_text_raw = f"Delay: {crazy_delta:3f} - (left/right arrows to change speed)"
+        crazy_delta_text_raw = f"Delay: {crazy_delta:3f} - (left/right arrows to change delay)"
 
         if count_text_raw_s != count_text_raw:
             count_text = font.render(
